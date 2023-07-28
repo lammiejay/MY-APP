@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import Navigation from "./components/navigation/Navigation";
 import Logo from "./components/logo/Logo";
@@ -58,11 +58,11 @@ function App() {
       id: user.id,
       name: user.name,
       email: user.email,
-      entries: 0,
+      entries: user.entries,
       joined: user.joined,
     });
 
-    console.log(user)
+    // console.log(user);
   };
   
   //connecting to server

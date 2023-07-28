@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import './App.css';
 import Navigation from './Components/Navigation';
 import Logo from './Components/Logo/Logo';

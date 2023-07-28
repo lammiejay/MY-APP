@@ -20,7 +20,7 @@ const Register = ({ onHome, onSignin, loadUser }) => {
     // console.log(password);
   };
 
-  const onSubmitRegister = () => {
+  const onSubmitRegister = (e) => {
     e.preventDefault();
     fetch("http://localhost:3002/register", {
       method: "post",
